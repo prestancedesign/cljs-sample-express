@@ -2,5 +2,4 @@
  :output-to "target/main.js"
  :output-dir "target"
  :target :nodejs
- :optimizations :simple
- :infer-externs true}
+ :optimizations :simple}

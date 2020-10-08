@@ -1,1 +1,2 @@
-{:deps {org.clojure/clojurescript {:mvn/version "1.10.773"}}}
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.773"}}
+ :aliases {:build {:main-opts ["-m" "cljs.main" "-co" "build.edn" "-c"]}}}
